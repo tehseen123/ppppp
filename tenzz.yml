@@ -1,0 +1,5 @@
+---
+ - hosts: all
+  tasks:
+    - debug:i
+        msg: This is from playbook-one
